@@ -10,19 +10,9 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  
-   
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
-  },
-
-  preview:{
-    host:true,
-    port:3000,
-    allowedHosts:[
-      "crud-lj4l.onrender.com"
-    ]
   },
 })
